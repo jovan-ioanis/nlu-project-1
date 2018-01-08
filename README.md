@@ -1,40 +1,25 @@
 # Natural Language Understanding 2017
-## Project 1, Group 01
+## Project 1: Language Modeling with Recurrent Neural Networks in Tensorflow and Continuation of Sentences
 
-### Members:
+The goal of the project was building language model based on recurrent neural network with LSTM cells, just from tensorflow `cell` implementation. This means that graph of RNN is unrolled manually and dynamically. The model is evaluated based on Perplexity metric. The second part of the project requires greedy continuation of sentences given their beggining. The text of the project can be found [here]().	
+
+### Authors:
  - Florian Chlan     fchlan@student.ethz.ch
  - Sam Kessler       sakessle@student.ethz.ch
  - Jovan Nikolic     jovan.nikolic@gess.ethz.ch
  - Jovan Andonov     andonovj@student.ethz.ch
 
-
-### TRAINING PARAMETERS USED:
-
-We trained each model for 10 epochs (sweeps of data), that on `Tesla M60` GPU available on Azure, took approximately 7 to 8 hours. The results reported are obtained after training the model for 2 epochs, as they were the most representative and generalized the best on the test set. To reproduce, our model checkpoints can be downloaded from:
-
-https://polybox.ethz.ch/index.php/s/JHA4guMyYq9OEU9
-
-Attached, you will find the following results:
-
- - group01.perplexityA
- - group01.perplexityB
- - group01.perplexityC
- - group01.continuation
-
-We have used up all funds available on Azure during testing and training our models.
-
+Data was provided by NLU teaching staff and we cannot disclose it.
 
 ### RUNNING THE CODE:
 
 Requirements:
-  - We expect all data (sentences.train, sentences.test, sentences.continuation) to be in ./data folder, 
-  where current folder is folder in which *.py scripts are
-
+  - We expect all data (`sentences.train`, `sentences.test`, `sentences.continuation`) to be in `./data` folder, where current folder is folder in which *.py scripts are
   - We expect `wordembeddings-dim100.word2vec` file in the same directory as *.py scripts
 
 **Training:**
 
-To train model for experiment X (A, B or C), use
+To train model for experiment X (A, B or C), run the following command:
 
 `python3 main.py -x X` 
 
