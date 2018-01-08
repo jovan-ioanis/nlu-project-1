@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Testing showed that TF usually only uses for cores.
+# Testing showed that TF usually only uses four cores.
 # So we set '-n 4' for both bsub and also main.python
 #
 # The command line argument to this bash script is passed to bsub,

@@ -1,7 +1,7 @@
 # Natural Language Understanding 2017
 ## Project 1: Language Modeling with Recurrent Neural Networks in Tensorflow and Continuation of Sentences
 
-The goal of the project was building language model based on recurrent neural network with LSTM cells, just from tensorflow `cell` implementation. This means that graph of RNN is unrolled manually and dynamically. The model is evaluated based on Perplexity metric. The second part of the project requires greedy continuation of sentences given their beggining. The text of the project can be found [here]().	
+The goal of the project was building language model based on recurrent neural network with LSTM cells, just from tensorflow `cell` implementation. This means that graph of RNN is unrolled manually and dynamically. The model is evaluated based on Perplexity metric. The second part of the project requires greedy continuation of sentences given their beggining. The text of the project can be found [here](https://github.com/jovan-ioanis/nlu-project-1/blob/master/project_pt1%262.pdf).	
 
 ### Authors:
  - Florian Chlan     fchlan@student.ethz.ch
